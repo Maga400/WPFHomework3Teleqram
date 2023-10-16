@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="image\Link icon.png" />
+    <None Remove="image\menu icon.png" />
+    <None Remove="image\Mikrofon_icon.png" />
+    <None Remove="image\Pin icon.png" />
+    <None Remove="image\Search icon.png" />
+    <None Remove="image\Seen icon.png" />
+    <None Remove="image\Smile icon.png" />
+    <None Remove="image\Three point icon.png" />
+    <None Remove="image\Two man icon.png" />
+    <None Remove="image\Yellow Smile icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\Link icon.png" />
+    <Resource Include="image\menu icon.png" />
+    <Resource Include="image\Mikrofon_icon.png" />
+    <Resource Include="image\Pin icon.png" />
+    <Resource Include="image\Search icon.png" />
+    <Resource Include="image\Seen icon.png" />
+    <Resource Include="image\Smile icon.png" />
+    <Resource Include="image\Three point icon.png" />
+    <Resource Include="image\Two man icon.png" />
+    <Resource Include="image\Yellow Smile icon.png" />
+  </ItemGroup>
+
+</Project>
